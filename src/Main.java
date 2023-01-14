@@ -51,6 +51,30 @@ public class Main {
             System.out.println("Месяц " + i + " Итого " + total);
             System.out.println(total);
         }
+        //Задача 8
+        System.out.println("Задание 8");
+        int accumulation = 29000;
+        int summa = 0;
+        for (int i = 1; i <= 12; i++) {
+            summa+=accumulation;
+            System.out.println("Месяц " + i + " -сумма накоплений равна " + summa + " рублей");
+        }
+        //Задача 9
+        System.out.println("Задание 9");
+        int part = 29000;
+        int sum = 0;
+        for (int i = 1; i <= 12; i++) {
+            sum = sum + sum/100;
+            sum = sum + part;
+            System.out.println("Месяц " + i + " -сумма накоплений равна " + sum + " рублей");
+        }
+        //Задача 10
+        System.out.println("Задание 10");
+        for (int multiplicationTable = 1; multiplicationTable <= 10; multiplicationTable++) {
+            int multiplicationTable2 = multiplicationTable * 2;
+            System.out.println("2 * " + multiplicationTable + " = " + multiplicationTable2);
+        }
+
     }
 
 }
